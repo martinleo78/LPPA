@@ -1,0 +1,145 @@
+article {
+    width: 50%;
+}
+
+a,
+a:hover,
+a:link,
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1,
+h2 {
+    color: #1f1f1f;
+    display: inline-block;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: 1.3;
+    margin: 0 0 10px;
+    padding: 0
+}
+
+h1 {
+    text-align: left;
+    font-size: 38px;
+    line-height: 42px
+}
+
+h2 {
+    font-size: 17px
+}
+
+.titulos_arriba {
+    align-items: left;
+    color: #333;
+    display: flex;
+    float: left;
+    height: 100%;
+    letter-spacing: 0;
+    margin: 0 10px;
+    transition: margin .5s ease .2s;
+    white-space: nowrap;
+}
+
+.menu-item {
+    color: #333;
+    display: flex;
+    font-size: large;
+    float: left;
+    font-weight: bolder;
+    height: 100%;
+    letter-spacing: 0;
+    margin: 0 10px;
+    transition: margin .5s ease .2s;
+    white-space: nowrap
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    padding: 1% 1% 1% 10%;
+    box-sizing: border-box;
+}
+
+.header_posta {
+    width: 80%;
+    color: #333;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    height: 100%;
+    letter-spacing: 0;
+    margin: 0 10px;
+    transition: margin .5s ease .2s;
+    white-space: nowrap
+}
+
+.contenedor_fecha {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.fecha {
+    color: #666;
+    flex-shrink: 0;
+    font-size: 14px;
+    font-style: italic;
+    max-height: 20px;
+    padding: 0 10px;
+    text-align: center
+}
+
+.linea_fecha {
+    border-bottom: 1px solid #666;
+    width: 100%;
+}
+
+.naranja {
+    color: #f96700;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: .02em;
+    font-size: 20px;
+    font-weight: 700
+}
+
+.amarillo {
+    background: #fffc41
+}
+
+@media screen and (max-width:800px) {
+    section {
+        width: 100%;
+        padding: 0% 0% 0% 0%;
+    }
+
+    article {
+        width: 100%;
+        padding: 0% 0% 0% 0%;
+    }
+    header {
+        display: none;
+    }
+
+    aside {
+        display: none;
+    }
+    .header_posta {
+        width: 100%;
+        padding: 0% 0% 0% 0%;
+    }
+    .titulos_arriba {
+        width: 100%;
+        padding: 0% 0% 0% 0%;
+    }
+    
+    .menu-item {
+        width: 100%;
+        padding: 0% 0% 0% 0%;
+    }
+}
